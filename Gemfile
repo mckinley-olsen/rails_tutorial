@@ -11,7 +11,7 @@ group :development do
   gem 'jdbc-sqlite3'
   gem 'rspec-rails'
 end
-
+gem 'bootstrap-sass'
 gem 'jruby-openssl'
 
 # Gems used only for assets and not required

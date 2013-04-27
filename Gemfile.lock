@@ -33,6 +33,8 @@ GEM
       i18n (= 0.6.1)
       multi_json (~> 1.0)
     arel (3.0.2)
+    bootstrap-sass (2.3.1.0)
+      sass (~> 3.2)
     bouncy-castle-java (1.5.0147)
     builder (3.0.4)
     capybara (1.1.2)
@@ -55,6 +57,7 @@ GEM
     erubis (2.7.0)
     execjs (1.4.0)
       multi_json (~> 1.0)
+    ffi (1.7.0)
     ffi (1.7.0-java)
     hike (1.2.1)
     i18n (0.6.1)
@@ -73,6 +76,7 @@ GEM
       treetop (~> 1.4.8)
     mime-types (1.22)
     multi_json (1.7.2)
+    nokogiri (1.5.9)
     nokogiri (1.5.9-java)
     polyglot (0.3.3)
     rack (1.4.5)
@@ -148,6 +152,7 @@ PLATFORMS
 
 DEPENDENCIES
   activerecord-jdbcsqlite3-adapter
+  bootstrap-sass
   capybara (= 1.1.2)
   coffee-rails (~> 3.2.1)
   jdbc-sqlite3
