@@ -10,6 +10,7 @@ gem 'activerecord-jdbcsqlite3-adapter'
 group :development do
   gem 'jdbc-sqlite3'
   gem 'rspec-rails'
+  gem 'annotate'
 end
 gem 'bootstrap-sass'
 gem 'jruby-openssl'
@@ -27,6 +28,7 @@ group :assets do
 end
 
 gem 'jquery-rails'
+gem 'bcrypt-ruby'
 
 group :test do
   gem 'capybara', '1.1.2'
